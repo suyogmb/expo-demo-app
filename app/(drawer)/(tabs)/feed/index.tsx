@@ -7,8 +7,8 @@ export default function FeedScreen() {
             <Text style={styles.text}>This is the Feed (Index Tab)</Text>
 
             <View style={styles.section}>
-                <Button title="View Post #1" onPress={() => router.push('/(drawer)/(tabs)/feed/1')} />
-                <Button title="View Post #2" onPress={() => router.push('/(drawer)/(tabs)/feed/2')} />
+                <Button title="View Post #1" onPress={() => router.push('/(drawer)/(tabs)/feed/123?sort=popular&filter=videos&page=2')} />
+                <Button title="View Post #2" onPress={() => router.push('/(drawer)/(tabs)/feed/456?sort=oldest&filter=images&page=3')} />
             </View>
 
             <View style={styles.section}>
